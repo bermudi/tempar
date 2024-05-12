@@ -57,7 +57,7 @@ void config_reset() {
 		.ver = CONFIG_VER,
 		.mac = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF},
 		.menu_key = PSP_CTRL_HOME | PSP_CTRL_RTRIGGER,
-		.trigger_key = PSP_CTRL_NOTE,
+		.trigger_key = PSP_CTRL_HOME | PSP_CTRL_LTRIGGER,
 		.screen_key = PSP_CTRL_SELECT | PSP_CTRL_VOLDOWN,
 		.cheat_hz = 15000,
 		.max_text_rows = 5000,
